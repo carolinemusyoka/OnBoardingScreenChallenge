@@ -5,8 +5,8 @@ import android.content.SharedPreferences
 
 class AppPrefs(context: Context) {
 
-    private lateinit var prefs: SharedPreferences
-    private lateinit var prefsEditor: SharedPreferences.Editor
+    private var prefs: SharedPreferences
+    private var prefsEditor: SharedPreferences.Editor
 
     init {
         prefs = context.getSharedPreferences(PREF_NAME, PRIVATE_MODE)
@@ -17,8 +17,6 @@ class AppPrefs(context: Context) {
         prefsEditor.putBoolean(IS_FIRST_TIME_LAUNCH, isFirstTime)
         prefsEditor.commit()
     }
-
-    fun isFirstTimeLaunch(): Boolean = prefs.getBoolean(IS_FIRST_TIME_LAUNCH, true)
 
     companion object {
         private const val PRIVATE_MODE = 0    // Shared preference mode
