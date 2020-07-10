@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/img"
+        android:id="@+id/img1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
@@ -33,10 +33,10 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorBlueMidnight"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/img"
+        app:layout_constraintEnd_toEndOf="@+id/img1"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/img"
-        app:layout_constraintTop_toBottomOf="@+id/img" />
+        app:layout_constraintStart_toStartOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
 
     <TextView
         android:id="@+id/desc1"
