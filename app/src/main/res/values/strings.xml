@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OnBoardingChallenge</string>
+    <string name="desc3">Feel less stressed and more mindful with meditation</string>
+    <string name="keep_calm">Keep Calm</string>
+    <string name="desc2">The mind is the most powerful asset that we possess and we have to prioritize it when it comes to health</string>
+    <string name="mindfullness">Mindfullness</string>
+    <string name="desc1">Let`s maintain your focus by meditating everyday without hassle</string>
+    <string name="stay_focused">Stay focused</string>
 </resources>
